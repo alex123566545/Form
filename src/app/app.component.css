@@ -1,0 +1,26 @@
+.example-form{
+text-align: center;
+margin: auto;
+}
+
+.form0{
+   margin: auto;
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+}
+.form1 mat-form-field{
+    margin-left: 20px;
+}
+.buttons button{
+   font-size: 1.2em;
+   margin-left: 5px;
+   background-color: rgb(39, 39, 172);
+   color: white;
+   border-radius: 10%;
+   padding: 5px;
+   cursor: pointer;
+}
+.buttons button:hover{
+   background-color: rgb(56, 53, 53);
+}
